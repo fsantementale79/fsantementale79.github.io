@@ -76,6 +76,17 @@ a:focus {
           box-shadow: none;
 }
 
+.radio-group {
+    display: flex;
+    gap: 15px; /* Espacement entre les boutons */
+    align-items: center; /* Alignement vertical */
+    margin-bottom: 10px;
+}
+
+.radio-group input[type="radio"] {
+    transform: scale(0.7); /* Réduit la taille du bouton */
+}
+
 /*header section*/
 .hero_area {
   position: relative;
